@@ -22,7 +22,8 @@ About the data : It has 9 columns and 700 rows
 3. Univariant Analysis of each variables
 4. Building Model
 5. Predicting and plotting ROC curve
-6. Model adjustment for better result
+6. Measure preformance
+7. Model adjustment for better result
 
 
 # Major libraries used
