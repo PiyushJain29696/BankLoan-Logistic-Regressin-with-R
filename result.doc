@@ -1,0 +1,147 @@
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n  mean   sd median trimmed mad min max range skew kurtosis   se
+X1    1 517 35.51 7.71     35   35.27 8.9  20  56    36 0.25    -0.65 0.34
+--------------------------------------------------------------------- 
+group: Default
+   vars   n  mean   sd median trimmed mad min max range skew kurtosis   se
+X1    1 183 33.01 8.52     31   32.18 8.9  20  55    35 0.74    -0.27 0.63
+
+	Two Sample t-test
+
+data:  dat1$age by dat1$default
+t = 3.6718, df = 698, p-value = 0.0002592
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 1.164881 3.842275
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               35.51451                33.01093 
+
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n mean   sd median trimmed  mad min max range skew kurtosis   se
+X1    1 517 9.51 6.66      9       9 7.41   0  31    31 0.65     -0.1 0.29
+--------------------------------------------------------------------- 
+group: Default
+   vars   n mean   sd median trimmed  mad min max range skew kurtosis   se
+X1    1 183 5.22 5.54      3    4.36 4.45   0  31    31  1.7     3.77 0.41
+
+	Two Sample t-test
+
+data:  dat1$employ by dat1$default
+t = 7.7948, df = 698, p-value = 2.347e-14
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 3.205433 5.363888
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               9.508704                5.224044 
+
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n mean sd median trimmed  mad min max range skew kurtosis   se
+X1    1 517 8.95  7      8     8.2 7.41   0  34    34 0.83     0.06 0.31
+--------------------------------------------------------------------- 
+group: Default
+   vars   n mean   sd median trimmed  mad min max range skew kurtosis   se
+X1    1 183 6.39 5.93      5    5.61 4.45   0  29    29 1.22     1.29 0.44
+
+	Two Sample t-test
+
+data:  dat1$address by dat1$default
+t = 4.4047, df = 698, p-value = 1.226e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 1.414687 3.690111
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               8.945841                6.393443 
+
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n  mean    sd median trimmed   mad min max range skew kurtosis   se
+X1    1 517 47.15 34.22     36   40.89 19.27  14 253   239 2.57     9.31 1.51
+--------------------------------------------------------------------- 
+group: Default
+   vars   n  mean    sd median trimmed   mad min max range skew kurtosis   se
+X1    1 183 41.21 43.12     29   33.33 16.31  14 446   432 5.63    43.64 3.19
+
+	Two Sample t-test
+
+data:  dat1$income by dat1$default
+t = 1.8797, df = 698, p-value = 0.06056
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.264352 12.147600
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               47.15474                41.21311 
+
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n mean   sd median trimmed  mad min  max range skew kurtosis   se
+X1    1 517 8.68 5.62    7.3    8.06 4.89 0.4 32.5  32.1 1.06     1.11 0.25
+--------------------------------------------------------------------- 
+group: Default
+   vars   n  mean  sd median trimmed  mad min  max range skew kurtosis   se
+X1    1 183 14.73 7.9   13.8    14.2 8.01 0.9 41.3  40.4 0.63     0.05 0.58
+
+	Two Sample t-test
+
+data:  dat1$debtinc by dat1$default
+t = -11.175, df = 698, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -7.111222 -4.985909
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               8.679304               14.727869 
+
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n mean   sd median trimmed  mad  min  max range skew kurtosis   se
+X1    1 517 1.25 1.42   0.73    0.97 0.74 0.01 9.88  9.87 2.44     8.06 0.06
+--------------------------------------------------------------------- 
+group: Default
+   vars   n mean   sd median trimmed  mad  min   max range skew kurtosis   se
+X1    1 183 2.42 3.23   1.38    1.72 1.47 0.07 20.56 20.49 2.92     9.86 0.24
+
+	Two Sample t-test
+
+data:  dat1$creddebt by dat1$default
+t = -6.6687, df = 698, p-value = 5.25e-11
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.5253044 -0.8314436
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               1.245397                2.423770 
+
+
+ Descriptive statistics by group 
+group: Nodefault
+   vars   n mean   sd median trimmed  mad  min   max range skew kurtosis   se
+X1    1 517 2.77 2.81   1.88    2.23 1.53 0.05 18.27 18.22 2.26     6.39 0.12
+--------------------------------------------------------------------- 
+group: Default
+   vars   n mean   sd median trimmed  mad  min   max range skew kurtosis   se
+X1    1 183 3.86 4.26   2.53    2.99 2.19 0.16 27.03 26.87  2.6     8.11 0.32
+
+	Two Sample t-test
+
+data:  dat1$othdebt by dat1$default
+t = -3.894, df = 698, p-value = 0.0001081
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.6398164 -0.5404992
+sample estimates:
+mean in group Nodefault   mean in group Default 
+               2.773230                3.863388 
+
